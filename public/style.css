@@ -1,0 +1,68 @@
+.border {
+  border-style: inset;
+  border-width: 1px;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login {
+  margin-top: 100px;
+}
+
+.chat {
+  margin-top: 40px;
+  width: 500px;
+}
+
+.chat-box {
+  margin-top: 20px;
+  height: 500px;
+}
+
+#logout {
+  position: absolute;
+  bottom: 20px;
+}
+
+form {
+  background: #000;
+  padding: 3px;
+  width: 500px;
+}
+
+form input {
+  border: 0;
+  padding: 10px; 
+  width: 90%; 
+  margin-right: .5%;
+}
+
+form button { 
+  width: 9%;
+  background: rgb(130, 224, 255);
+  border: none; 
+  padding: 10px; 
+}
+
+#messages { 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  height: 20em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#messages li { 
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) { 
+  background: #eee;
+}
