@@ -39,6 +39,7 @@ const fs = require('fs');
 const cors = require('cors');
 
 module.exports = function (app) {
+  app.use(cors());
   
   app.use(function (req, res, next) {
       var allowedOrigins = ['https://pricey-hugger.gomix.me', 'http://pricey-hugger.gomix.me', 'https://freecodecamp.com', 'https://beta.freecodecamp.com', 'http://freecodecamp.com', 'http://beta.freecodecamp.com','http://localhost:3000', 'https://localhost:3000']
